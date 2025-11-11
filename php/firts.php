@@ -87,4 +87,8 @@ strpos()
 //5. strtolower()
 
 // to get part of string ie substring
-substr(variable , index of start slice , position upto slice)
+substr(variable , index of start slice , position upto slice)\
+
+//Array decleration
+1. with array keyword
+2. with [] .
