@@ -43,3 +43,12 @@ sudo/opt/lamp/lamp start
 sudo service mysql stop
 sudo /opt/lampp/lampp start
 
+
+
+<!-- project setup -->
+ composer create-project laravel/laravel myapp "11."
+
+ 2.start the local dev server 
+ php artisan server
+ 3.
+
