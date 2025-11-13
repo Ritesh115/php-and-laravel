@@ -15,10 +15,31 @@
 frameworks are pre written codes and libraries which help us to build web applications easily and quickly .
 
 <!-- installation of laravel -->
- 1. xamp (php version 8+ and MYSql)
- 2. Install composer = its command line controller like npm.
+ 1. xamp (php version 8+ and MYSql) or lampp is software which provides apache server and mysql server . 
+ Through apache gives us local host server to run our web applications on our local machine .
+ 2. Install composer = its command line controller like npm. through composer we can install php packages and libraries .
  3. Install laravel
  4. Install Vs code editor 
 
+<!-- Running commands -->
+ 1. check for XAMPP
+cd /opt/lampp
+ls
 
- 
+2. start apache and mysql server
+sudo /opt/lampp/lampp 
+
+3.stop XAMPP
+sudo /opt/lampp/lampp stop
+
+4. restart XAMPP
+sudo /opt/lampp/lampp restart
+
+
+<!--  -->
+sudo service apache2 stop
+sudo/opt/lamp/lamp start
+
+sudo service mysql stop
+sudo /opt/lampp/lampp start
+
