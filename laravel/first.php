@@ -26,24 +26,12 @@ frameworks are pre written codes and libraries which help us to build web applic
 cd /opt/lampp
 ls
 
-2. start apache and mysql server
-sudo /opt/lampp/lampp 
-
-3.stop XAMPP
-sudo /opt/lampp/lampp stop
-
-4. restart XAMPP
-sudo /opt/lampp/lampp restart
-
-
 <!--  -->
 sudo service apache2 stop
-sudo/opt/lamp/lamp start
+sudo /opt/lampp/lampp startapache
 
 sudo service mysql stop
-sudo /opt/lampp/lampp start
-
-
+sudo /opt/lampp/lampp startmysql
 
 <!-- project setup -->
  composer create-project laravel/laravel myapp "11."
