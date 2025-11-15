@@ -1,0 +1,21 @@
+How to add password and image fields to your migration
+<!-- command -->
+php artisan make:migration add_password_and_image_to_students_table --table=students
+//
+public function up(): void
+{
+    Schema::table('students', function (Blueprint $table) {
+        $table->string('password')->after('course');
+        $table->string('image')->nullable()->after('password');
+    });
+}
+
+public function down(): void
+{
+    Schema::table('students', function (Blueprint $table) {
+        $table->dropColumn(['password', 'image']);
+    });
+}
+//
+then run = 
+php artisan migrate
